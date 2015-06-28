@@ -1,0 +1,28 @@
+{
+  "name": "wiki-locations",
+  "version": "1.0.0",
+  "description": "Crawler grabbing location data from wikipedia graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krambuhl/wiki-locations.git"
+  },
+  "author": "Evan Krambuhl <thekrambuhl@gmail.com> (http://stumptownbear.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krambuhl/wiki-locations/issues"
+  },
+  "homepage": "https://github.com/krambuhl/wiki-locations",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^3.9.3",
+    "mongodb": "^2.0.35",
+    "nodemw": "^0.6.1",
+    "queue": "^3.1.0",
+    "request": "^2.58.0"
+  }
+}
